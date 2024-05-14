@@ -4,13 +4,11 @@ SRCS = \
 	ft_printf.c \
 	ft_putstr.c \
 	ft_putchar.c \
-	ft_putnbr_base.c \
-	ft_putdata_base.c 
+	ft_print_hex.c 
 
 OBJS = ${SRCS:.c=.o}
 
 FLAGS = -Wall -Werror -Wextra
-# IFLAGS = -I. -Ilibft
 LIBFT_NAME = ./libft/libft.a
 LIBFT_DIR = ./libft
 RM = rm -rf
